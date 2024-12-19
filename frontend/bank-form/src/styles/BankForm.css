@@ -1,0 +1,83 @@
+/* CSS for the BankForm Component */
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h4 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    font-display: center;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
